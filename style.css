@@ -1,0 +1,104 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: rgb(255, 255, 255);
+}
+
+.img1 {
+    background-image: url(Images/img1.jpg);
+    min-height: 100%;
+}
+
+.img2 {
+    background-image: url(Images/img2.jpg);
+    height: 500px;
+}
+
+.img3 {
+    background-image: url(Images/img3.jpg);
+    height: 500px;
+}
+.img4 {
+    background-image: url(Images/img4.jpg);
+    height: 500px;
+
+}
+.img5 {
+    background-image: url(Images/img5.jpg);
+    height: 500px;
+}
+
+.img1 h2 {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+
+}
+
+.img1,
+.img2,
+.img3, 
+.img4,
+.img5 {
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(37, 37, 37);
+    max-width: 100%;
+    padding: 30px;
+
+}
+.ptext {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+  }
+  .textBg {
+    background: #313534;
+    color: #fff;
+    padding: 20px;
+  }
+
+.h3tag{
+    display: block;
+    margin: 15px;
+
+}
+
+.footer p{
+    display: flex;
+    justify-content: center;
+    text-align: center;  
+    color:#fff;
+    background-color: black; 
+}
